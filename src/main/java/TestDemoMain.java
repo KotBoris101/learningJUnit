@@ -1,6 +1,8 @@
 public class TestDemoMain {
     public static void main(String[] args) {
         Numbers numb = new Numbers();
-        System.out.println("Sum = " + numb.sum(5));
+        int n = 5;
+        System.out.println("Sum = " + numb.sum(n));
+        System.out.println("Factorial = " + numb.factorial(n));
     }
 }
